@@ -1,5 +1,6 @@
 ﻿using NameTags.Assets;
 using Photon.Pun;
+using Photon.Realtime;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -88,7 +89,7 @@ namespace NameTags
             nametag = Instantiate(AssetRef.Tag);
             if (nametag != null)
             {
-                nametag.transform.localScale = new Vector3(0.025f, 0.025f, 0.025f);
+                nametag.transform.localScale = new Vector3(0.03f, 0.03f, 0.03f);
                 text = FindChildByName(nametag.transform, "NameTagText");
                 if (text != null)
                 {
@@ -115,11 +116,13 @@ namespace NameTags
             nametag.transform.LookAt(GorillaTagger.Instance.offlineVRRig.transform.position);
 
             textM.text = vrrig.playerNameVisible;
-            playerColor = vrrig.playerColor;
 
 
-            if (!vrrig.mainSkin.material.name.Contains("fected"))
+            if (vrrig.mainSkin.material.name.Contains("fected") == false)
             {
+
+                playerColor = vrrig.materialsToChangeTo[vrrig.currentMatIndex].color;
+
                 Color textColor = new Color(playerColor.r, playerColor.g, playerColor.b, TextAlpha);
                 textM.color = textColor;
 
@@ -128,6 +131,7 @@ namespace NameTags
             }
             else
             {
+
                 Color textColor = new Color(0.9607843f, 0.345098f, 0, TextAlpha);
                 textM.color = textColor;
 

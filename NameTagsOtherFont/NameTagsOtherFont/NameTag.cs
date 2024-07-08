@@ -117,11 +117,12 @@ namespace NameTagsOtherFont
             nametag.transform.LookAt(GorillaTagger.Instance.offlineVRRig.transform.position);
 
             textM.text = vrrig.playerNameVisible;
-            playerColor = vrrig.playerColor;
 
 
-            if (!vrrig.mainSkin.material.name.Contains("fected"))
+
+            if (vrrig.mainSkin.material.name.Contains("fected") == false)
             {
+                playerColor = vrrig.materialsToChangeTo[vrrig.currentMatIndex].color;
                 Color textColor = new Color(playerColor.r, playerColor.g, playerColor.b, TextAlpha);
                 textM.color = textColor;
 

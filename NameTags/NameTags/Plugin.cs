@@ -30,7 +30,7 @@ namespace NameTags
         {
             /* Set up your mod here */
             /* Code here runs at the start and whenever your mod is enabled*/
-
+            
             HarmonyPatches.ApplyHarmonyPatches();
         }
 
