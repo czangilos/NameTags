@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\czangilos\\source\\repos\\NameTags\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|c:\\users\\czangilos\\source\\repos\\nametags\\nametags\\assets\\assetref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|solutionrelative:nametags\\assets\\assetref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|c:\\users\\czangilos\\source\\repos\\nametags\\nametags\\patches\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|solutionrelative:nametags\\patches\\rigpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|c:\\users\\czangilos\\source\\repos\\nametags\\nametags\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|solutionrelative:nametags\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|c:\\users\\czangilos\\source\\repos\\nametags\\nametags\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|solutionrelative:nametags\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|c:\\users\\czangilos\\source\\repos\\nametags\\nametags\\nametag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|solutionrelative:nametags\\nametag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|c:\\users\\czangilos\\source\\repos\\nametags\\nametags\\nametags.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A8700FA-5D44-4FBE-A423-B36CE744E0A4}|NameTags\\NameTags.csproj|solutionrelative:nametags\\nametags.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssetRef.cs",
+              "DocumentMoniker": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\Assets\\AssetRef.cs",
+              "RelativeDocumentMoniker": "NameTags\\Assets\\AssetRef.cs",
+              "ToolTip": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\Assets\\AssetRef.cs",
+              "RelativeToolTip": "NameTags\\Assets\\AssetRef.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T22:00:35.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PluginInfo.cs",
+              "DocumentMoniker": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\PluginInfo.cs",
+              "RelativeDocumentMoniker": "NameTags\\PluginInfo.cs",
+              "ToolTip": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\PluginInfo.cs",
+              "RelativeToolTip": "NameTags\\PluginInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T21:58:54.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RigPatch.cs",
+              "DocumentMoniker": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\Patches\\RigPatch.cs",
+              "RelativeDocumentMoniker": "NameTags\\Patches\\RigPatch.cs",
+              "ToolTip": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\Patches\\RigPatch.cs",
+              "RelativeToolTip": "NameTags\\Patches\\RigPatch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T21:58:27.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NameTag.cs",
+              "DocumentMoniker": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\NameTag.cs",
+              "RelativeDocumentMoniker": "NameTags\\NameTag.cs",
+              "ToolTip": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\NameTag.cs",
+              "RelativeToolTip": "NameTags\\NameTag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T21:58:01.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NameTags.csproj",
+              "DocumentMoniker": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\NameTags.csproj",
+              "RelativeDocumentMoniker": "NameTags\\NameTags.csproj",
+              "ToolTip": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\NameTags.csproj",
+              "RelativeToolTip": "NameTags\\NameTags.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-07T21:57:33.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\Plugin.cs",
+              "RelativeDocumentMoniker": "NameTags\\Plugin.cs",
+              "ToolTip": "C:\\Users\\czangilos\\source\\repos\\NameTags\\NameTags\\Plugin.cs",
+              "RelativeToolTip": "NameTags\\Plugin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T21:55:58.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
