@@ -50,6 +50,7 @@ namespace NameTags
                 {
                     // You left the lobby, Destroying the name tag!
                     Destroy(nametag);
+                    Destroy(this);
                 }
 
                 if (vrrig != null && nametag != null && PhotonNetwork.InRoom)
@@ -108,6 +109,7 @@ namespace NameTags
         {
             // Somebody left the code, destroying it's name tag!
             Destroy(nametag);
+            Destroy(this);
         }
 
         private void NameTagLoop()

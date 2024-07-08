@@ -7,6 +7,6 @@
     {
         public const string GUID = "com.czangilos.gorillatag.nametags";
         public const string Name = "NameTags";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.2";
     }
 }

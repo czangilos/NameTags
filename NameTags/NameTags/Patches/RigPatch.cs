@@ -16,7 +16,7 @@ namespace NameTags.Patches
                 if (!__instance.GetComponent<NameTag>())
                 {
                     __instance.AddComponent<NameTag>();
-                }
+                } 
             }
         }
     }

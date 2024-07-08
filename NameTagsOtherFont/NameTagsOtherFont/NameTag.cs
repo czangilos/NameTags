@@ -24,20 +24,19 @@ namespace NameTagsOtherFont
         float BlobAlpha = 0.05f;
         float TextAlpha = 0.7f;
 
-
-
         private void Awake()
         {
             vrrig = GetComponent<VRRig>();
 
 
-            // spawn the nametag
+            // Spawn the nametag
             Spawn();
         }
 
 
 
-        private void Update() {
+        private void Update()
+        {
 
             try
             {
@@ -51,6 +50,7 @@ namespace NameTagsOtherFont
                 {
                     // You left the lobby, Destroying the name tag!
                     Destroy(nametag);
+                    Destroy(this);
                 }
 
                 if (vrrig != null && nametag != null && PhotonNetwork.InRoom)
@@ -59,7 +59,8 @@ namespace NameTagsOtherFont
                     NameTagLoop();
                 }
             }
-            catch (Exception e) {
+            catch (Exception e)
+            {
 
                 Debug.LogError($"An error has occured in the name tag mod! Report this to czangilos! {e.Message}");
 
@@ -90,7 +91,7 @@ namespace NameTagsOtherFont
             nametag = Instantiate(AssetRef.Tag);
             if (nametag != null)
             {
-                nametag.transform.localScale = new Vector3(0.025f, 0.025f, 0.025f);
+                nametag.transform.localScale = new Vector3(0.03f, 0.03f, 0.03f);
                 text = FindChildByName(nametag.transform, "NameTagText");
                 if (text != null)
                 {
@@ -109,6 +110,7 @@ namespace NameTagsOtherFont
         {
             // Somebody left the code, destroying it's name tag!
             Destroy(nametag);
+            Destroy(this);
         }
 
         private void NameTagLoop()
@@ -119,10 +121,11 @@ namespace NameTagsOtherFont
             textM.text = vrrig.playerNameVisible;
 
 
-
             if (vrrig.mainSkin.material.name.Contains("fected") == false)
             {
+
                 playerColor = vrrig.materialsToChangeTo[vrrig.currentMatIndex].color;
+
                 Color textColor = new Color(playerColor.r, playerColor.g, playerColor.b, TextAlpha);
                 textM.color = textColor;
 
@@ -131,6 +134,7 @@ namespace NameTagsOtherFont
             }
             else
             {
+
                 Color textColor = new Color(0.9607843f, 0.345098f, 0, TextAlpha);
                 textM.color = textColor;
 
